@@ -5,7 +5,7 @@
 
 [Linjiang Huang](https://leonhlj.github.io/)<sup>1,2\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=zh-CN&oi=ao)<sup>1,\*</sup>, [Aiping Zhang]()<sup>3</sup>, [Guanglu Song]()<sup>4</sup>, [Si Liu]()<sup>5</sup>, [Yu Liu]()<sup>4</sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>1,2</sup>
 
-<sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligence<br><sup>3</sup>Sun Yat-Sen University<br><sup>4</sup>Sensetime Research<br><sup>5</sup>Beihang University
+<sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligence<br><sup>3</sup>Sun Yat-Sen University, <sup>4</sup>Sensetime Research, <sup>5</sup>Beihang University
 </div>
 
 :star: If FouriScale is helpful for you, please help star this repo. Thanks!:hugs:
@@ -33,8 +33,6 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 <img src=assets/visualization_main.jpg>
 
 :star: Visual comparisons between ours, [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) and [Attn-Entro](https://arxiv.org/pdf/2306.08645.pdf), under settings of 4$\times$, 8$\times$, and 16$\times$, employing three distinct pre-trained diffusion models: [SD 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5), [SD 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base), and [SDXL 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0).
-
-![Red Circle with Number 1](https://upload.wikimedia.org/wikipedia/commons/0/02/Eo_circle_red_number-1.svg "Red Circle Number 1")
 
 ### Visual Results with LoRAs
 
