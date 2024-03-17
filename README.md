@@ -5,7 +5,6 @@
  <a href="https://arxiv.org/abs/2203.02925">
     <img src="https://img.shields.io/badge/arXiv-2203.02925-b31b1b.svg?style=plastic" alt="arXiv">
   </a>
-  <br>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=LeonHLJ/FouriScale" alt="visitors">
 </p>
 
