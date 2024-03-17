@@ -24,6 +24,10 @@
 
 <img src=assets/visualization_main.jpg>
 
+:star: Visual comparisons between ours, [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) and [Attn-Entro](https://arxiv.org/pdf/2306.08645.pdf), under settings of 4$\times$, 8$\times$, and 16$\times$, employing three distinct pre-trained diffusion models: [SD 1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5), [SD 2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base), and [SDXL 1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0).
+
+![Red Circle with Number 1](https://upload.wikimedia.org/wikipedia/commons/0/02/Eo_circle_red_number-1.svg "Red Circle Number 1")
+
 ### Visual Results with LoRAs
 
 <img src=assets/LoRA.jpg>
