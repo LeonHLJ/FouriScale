@@ -1,20 +1,28 @@
 ## FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis
 
+<div align="center">
 [Paper]() 
 
 [Linjiang Huang](https://leonhlj.github.io/)<sup>1,2\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=zh-CN&oi=ao)<sup>1,\*</sup>, [Aiping Zhang]()<sup>3</sup>, [Guanglu Song]()<sup>4</sup>, [Si Liu]()<sup>5</sup>, [Yu Liu]()<sup>4</sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>1,2</sup>
 
-<sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligenceg<br><sup>3</sup>Sun Yat-Sen University<br><sup>4</sup>Sensetime Research<br><sup>5</sup>Beihang University
+<sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligence<br><sup>3</sup>Sun Yat-Sen University<br><sup>4</sup>Sensetime Research<br><sup>5</sup>Beihang University
+</div>
 
 :star: If FouriScale is helpful for you, please help star this repo. Thanks!:hugs:
 
 ## :book: Table Of Contents
 
+- [Abstract](#abstract)
 - [Visual Results](#visual_results)
 - [Update](#update)
 - [TODO](#todo)
 <!-- - [Installation](#installation)
 - [Inference](#inference) -->
+
+## <a name="abstract"></a>:fireworks: Abstract
+> In this study, we delve into the generation of high-resolution images from pre-trained diffusion models, addressing persistent challenges, such as repetitive patterns and structural distortions, that emerge when models are applied beyond their trained resolutions. To address this issue, we introduce an innovative, training-free approach FouriScale from the perspective of frequency domain analysis.
+We replace the original convolutional layers in pre-trained diffusion models by incorporating a dilation technique along with a low-pass operation, intending to achieve structural consistency and scale consistency across resolutions, respectively. Further enhanced by a padding-then-crop strategy, our method can flexibly handle text-to-image generation of various aspect ratios. By using the FouriScale as guidance, our method successfully balances the structural integrity and fidelity of generated images, achieving an astonishing capacity of arbitrary-size, high-resolution, and high-quality generation. With its simplicity and compatibility, our method can provide valuable insights for future explorations into the synthesis of ultra-high-resolution images.
+
 
 ## <a name="visual_results"></a>:eyes: Visual Results
 
