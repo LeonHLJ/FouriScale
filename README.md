@@ -1,9 +1,13 @@
 ## FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis
 
-[![arXiv](https://img.shields.io/badge/arXiv-2203.02925-b31b1b.svg?style=plastic)](https://arxiv.org/abs/2203.02925)
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=LeonHLJ/Teach-DETR) 
-
 <div align="center">
+
+ <a href="https://arxiv.org/abs/2203.02925">
+    <img src="https://img.shields.io/badge/arXiv-2203.02925-b31b1b.svg?style=plastic" alt="arXiv">
+  </a>
+  <br>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LeonHLJ/FouriScale" alt="visitors">
+</p>
 
 [Linjiang Huang](https://leonhlj.github.io/)<sup>1,2\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=zh-CN&oi=ao)<sup>1,\*</sup>, [Aiping Zhang]()<sup>3</sup>, [Guanglu Song]()<sup>4</sup>, [Si Liu]()<sup>5</sup>, [Yu Liu]()<sup>4</sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>1,2 :envelope:</sup>
 
