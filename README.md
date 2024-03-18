@@ -86,7 +86,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## :bulb: Acknowledgement
 
-Thanks [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) for their awesome work and public source code.
+We appreciate [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) for their awesome work and open-source code.
 
 ## :envelope: Contact
 
