@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://arxiv.org/abs/2203.02925"><img src="https://img.shields.io/badge/ArXiv-2203.02925-red"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- - <a href="https://arxiv.org/abs/2203.02925"><img src="https://img.shields.io/badge/ArXiv-2203.02925-red"></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
 <img src="https://visitor-badge.laobi.icu/badge?page_id=LeonHLJ/FouriScale" alt="visitors">
 </p>
 
