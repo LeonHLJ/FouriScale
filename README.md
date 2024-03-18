@@ -81,7 +81,7 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## :bulb: Acknowledgement
 
-Thanks [Attn-Entro](https://arxiv.org/pdf/2306.08645.pdf) and [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) for their awesome work and source code.
+Thanks [ScaleCrafter](https://github.com/YingqingHe/ScaleCrafter) for their awesome work and public source code.
 
 ## :envelope: Contact
 
