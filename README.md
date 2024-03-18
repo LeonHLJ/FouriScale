@@ -15,7 +15,7 @@
 <sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligence<br><sup>3</sup>Sun Yat-Sen University, <sup>4</sup>Sensetime Research, <sup>5</sup>Beihang University<br>* Equal contribution, :envelope:Corresponding author
 </div>
 
-:star: If FouriScale is helpful for you, please help star this repo. Thanks!:hugs:
+:star: If FouriScale is helpful for you, please help star this repo. Thanks! :hugs:
 
 ## :book: Table Of Contents
 
@@ -56,7 +56,7 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 
 ## <a name="update"></a>:new: Update
 
-- **2024.03.18**: This repo is released :fire:
+- **2024.03.19**: This repo is released :fire:
 <!-- - [**History Updates** >]() -->
 
 
