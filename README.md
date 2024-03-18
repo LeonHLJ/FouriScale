@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/icon.png" width="300">
+    <img src="assets/icon.png" width="230">
 </p>
 
 ## FouriScale: A Frequency Perspective on Training-Free High-Resolution Image Synthesis
