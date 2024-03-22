@@ -67,7 +67,7 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 
 - [ ] Release code :computer:
 - [ ] Update links to project page :link:
-- [ ] Provide HuggingFace demo :tv:
+- [ ] Provide Hugging Face demo :tv:
 
 
 ## :smiley: Citation
