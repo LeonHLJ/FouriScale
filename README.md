@@ -20,14 +20,24 @@
 
 :star: If FouriScale is helpful for you, please help star this repo. Thanks! :hugs:
 
+
 ## :book: Table Of Contents
 
+- [Update](#update)
 - [Abstract](#abstract)
 - [Visual Results](#visual_results)
-- [Update](#update)
 - [TODO](#todo)
 <!-- - [Installation](#installation)
 - [Inference](#inference) -->
+
+## <a name="update"></a>:new: Update
+
+- **2024.03.25**: The code is released :fire:
+- **2024.03.20**: 🎉 **FouriScale** has been selected as 🤗 [***Hugging Face Daily Papers***](https://huggingface.co/papers/2403.12963) :fire:
+- **2024.03.19**: This repo is released :fire:
+<!-- - [**History Updates** >]() -->
+
+---
 
 ## <a name="abstract"></a>:fireworks: Abstract
 
@@ -56,14 +66,6 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 <img src=assets/pic/more_resolution.jpg>
 
 <!-- </details> -->
-
-## <a name="update"></a>:new: Update
-
-- **2024.03.25**: The code is released :fire:
-- **2024.03.19**: This repo is released :fire:
-<!-- - [**History Updates** >]() -->
-
----
 
 ## 💫 Inference
 
