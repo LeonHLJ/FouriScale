@@ -79,7 +79,7 @@ conda activate fouriscale
 pip install -r requirements.txt
 ```
 
-:exclamation: We highly recommend following the provided environment requirement, especially the diffusers.
+:star: We highly recommend following the provided environmental requirements, especially regarding diffusers, as there are significant modifications between versions.
 
 ## 💫 Inference
 
