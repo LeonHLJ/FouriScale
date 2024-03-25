@@ -15,7 +15,7 @@
 <sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligence<br><sup>3</sup>Sun Yat-Sen University, <sup>4</sup>Sensetime Research, <sup>5</sup>Beihang University<br>* Equal contribution, :envelope:Corresponding author
 </div>
 
-:fire::fire::fire: We will release the code in the next few days
+:fire::fire::fire: We have released the code, cheers!
 
 
 :star: If FouriScale is helpful for you, please help star this repo. Thanks! :hugs:
