@@ -24,9 +24,10 @@
 ## :book: Table Of Contents
 
 - [Update](#update)
+- [TODO](#todo)
 - [Abstract](#abstract)
 - [Visual Results](#visual_results)
-- [TODO](#todo)
+
 <!-- - [Installation](#installation)
 - [Inference](#inference) -->
 
@@ -37,7 +38,11 @@
 - **2024.03.19**: This repo is released :fire:
 <!-- - [**History Updates** >]() -->
 
----
+## <a name="todo"></a>:hourglass: TODO
+
+- [x] Release Code :computer:
+- [ ] Update links to project page :link:
+- [ ] Provide Hugging Face demo :tv:
 
 ## <a name="abstract"></a>:fireworks: Abstract
 
@@ -124,12 +129,6 @@ To generate in other resolutions please use the following config files:
 + 2048x2048: `./configs/sd1.5_2048x2048.yaml` `./configs/sd2.1_2048x2048.yaml`
 
 Please see the instructions above to use your customized text prompt.
-
-## <a name="todo"></a>:hourglass: TODO
-
-- [ ] Update links to project page :link:
-- [ ] Provide Hugging Face demo :tv:
-
 
 ## :smiley: Citation
 
