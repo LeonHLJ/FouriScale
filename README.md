@@ -79,6 +79,8 @@ conda activate fouriscale
 pip install -r requirements.txt
 ```
 
+:exclamation: We highly recommend following the provided environment requirement, especially the diffusers.
+
 ## 💫 Inference
 
 ### Text-to-image higher-resolution generation with diffusers script
