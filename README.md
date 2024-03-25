@@ -27,6 +27,8 @@
 - [TODO](#todo)
 - [Abstract](#abstract)
 - [Visual Results](#visual_results)
+- [Setup](#setup)
+- [Inference](#inference)
 
 <!-- - [Installation](#installation)
 - [Inference](#inference) -->
@@ -72,7 +74,7 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 
 <!-- </details> -->
 
-## ⚙️ Setup
+## <a name="setup"></a> ⚙️ Setup
 ```bash
 conda create -n fouriscale python=3.8
 conda activate fouriscale
@@ -81,7 +83,7 @@ pip install -r requirements.txt
 
 :star: We highly recommend following the provided environmental requirements, especially regarding diffusers, as there are significant modifications between versions.
 
-## 💫 Inference
+## <a name="inference"></a> 💫 Inference
 
 ### Text-to-image higher-resolution generation with diffusers script
 ### stable-diffusion xl v1.0 base 
