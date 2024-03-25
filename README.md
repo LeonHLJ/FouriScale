@@ -126,7 +126,7 @@ Please see the instructions above to use your customized text prompt.
 ## <a name="todo"></a>:hourglass: TODO
 
 - [ ] Update links to project page :link:
-- [ ] Provide HuggingFace demo :tv:
+- [ ] Provide Hugging Face demo :tv:
 
 
 ## :smiley: Citation
