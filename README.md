@@ -72,6 +72,13 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 
 <!-- </details> -->
 
+## ⚙️ Setup
+```bash
+conda create -n fouriscale python=3.8
+conda activate fouriscale
+pip install -r requirements.txt
+```
+
 ## 💫 Inference
 
 ### Text-to-image higher-resolution generation with diffusers script

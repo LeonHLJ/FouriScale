@@ -1,4 +1,6 @@
 diffusers==0.20.2
+accelerate==0.16.0
+clean-fid==0.1.35
 torch~=2.0.0
 scipy~=1.9.1
 omegaconf~=2.1.1
