@@ -1,0 +1,12 @@
+start_step: 20
+stop_step: 35
+layer_settings: ./assets/layer_settings/sdxl.txt
+base_settings: ./assets/base_settings/sdxl.txt
+progressive: True
+num_inference_steps: 50
+inference_batch_size: 1
+num_iters_per_prompt: 1
+latent_height: 256
+latent_width: 512
+pixel_height: 2048
+pixel_width: 4096

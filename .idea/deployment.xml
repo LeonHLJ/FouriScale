@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="1424eval" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="1424eval">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/cachenew/tianhao2/rongyao/FouriScale" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sensecore">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/mnt/afs/fangrongyao/FouriScale" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

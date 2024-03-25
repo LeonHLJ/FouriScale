@@ -1,0 +1,12 @@
+start_step: 20
+stop_step: 35
+layer_settings: ./assets/layer_settings/sd2.1.txt
+base_settings: ./assets/base_settings/sd2.1.txt
+progressive: true
+num_inference_steps: 50
+inference_batch_size: 1
+num_iters_per_prompt: 1
+latent_height: 128
+latent_width: 256
+base_height: 64
+base_width: 64
