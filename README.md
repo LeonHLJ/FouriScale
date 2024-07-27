@@ -152,6 +152,7 @@ accelerate launch --num_processes 1 \
 text2image_xl_controlnet.py \
    --pretrained_model_name_or_path stabilityai/stable-diffusion-xl-base-1.0 \
    --controlnet_model_name_or_path lllyasviel/sd-controlnet-canny \
+   --image_path ${your-control-image-dir} \
    --validation_prompt "Girl with Pearl Earring, highly detailed, sharp focus, ultra sharpness, high contrast" \
    --seed 1 \
    --config ./configs/sdxl_2048x2048.yaml \
