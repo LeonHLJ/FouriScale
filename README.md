@@ -10,9 +10,9 @@
 <img src="https://visitor-badge.laobi.icu/badge?page_id=LeonHLJ/FouriScale" alt="visitors">
 </p>
 
-[Linjiang Huang](https://leonhlj.github.io/)<sup>1,2\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=zh-CN&oi=ao)<sup>1,\*</sup>, [Aiping Zhang]()<sup>3</sup>, [Guanglu Song]()<sup>4</sup>, [Si Liu]()<sup>5</sup>, [Yu Liu]()<sup>4</sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>1,2 :envelope:</sup>
+[Linjiang Huang](https://leonhlj.github.io/)<sup>1,3\*</sup>, [Rongyao Fang](https://scholar.google.com/citations?user=FtH3CW4AAAAJ&hl=zh-CN&oi=ao)<sup>1,\*</sup>, [Aiping Zhang]()<sup>4</sup>, [Guanglu Song]()<sup>5</sup>, [Si Liu]()<sup>6</sup>, [Yu Liu]()<sup>5</sup>, [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>1,2,3 :envelope:</sup>
 
-<sup>1</sup>CUHK-SenseTime Joint Laboratory, The Chinese University of Hong Kong<br><sup>2</sup>Centre for Perceptual and Interactive Intelligence<br><sup>3</sup>Sun Yat-Sen University, <sup>4</sup>Sensetime Research, <sup>5</sup>Beihang University<br>* Equal contribution, :envelope:Corresponding author
+<sup>1</sup>CUHK MMLab, <sup>2</sup>Shanghai AI Laboratory<br><sup>3</sup>Centre for Perceptual and Interactive Intelligence<br><sup>4</sup>Sun Yat-Sen University, <sup>5</sup>Sensetime Research, <sup>6</sup>Beihang University<br>* Equal contribution, :envelope:Corresponding author
 </div>
 
 :fire::fire::fire: We have released the code, cheers!
@@ -35,6 +35,8 @@
 
 ## <a name="update"></a>:new: Update
 
+- **2024.07.27**: The code for ControlNet is added :fire:
+- **2024.07.01**: FouriScale is accepted by ECCV2024 :fire::fire::fire:
 - **2024.03.25**: The code is released :fire:
 - **2024.03.20**: 🎉 **FouriScale** has been selected as 🤗 [***Hugging Face Daily Papers***](https://huggingface.co/papers/2403.12963) :fire:
 - **2024.03.19**: This repo is released :fire:
@@ -43,6 +45,7 @@
 ## <a name="todo"></a>:hourglass: TODO
 
 - [x] Release Code :computer:
+- [x] Update Code for ControlNet :computer:
 - [ ] Update links to project page :link:
 - [ ] Provide Hugging Face demo :tv:
 
@@ -138,6 +141,22 @@ To generate in other resolutions please use the following config files:
 + 1280x1280: `./configs/sd1.5_1280x1280.yaml` `./configs/sd2.1_1280x1280.yaml`
 + 2048x1024: `./configs/sd1.5_2048x1024.yaml` `./configs/sd2.1_2048x1024.yaml`
 + 2048x2048: `./configs/sd1.5_2048x2048.yaml` `./configs/sd2.1_2048x2048.yaml`
+
+### Higher-resolution generation with ControlNet
+
+We now provide ControlNet with SDXL, you can modify the code similarly for SD 1.5/2.1.
+
+```bash
+# 2048x2048 (4x) generation
+accelerate launch --num_processes 1 \
+text2image_xl_controlnet.py \
+   --pretrained_model_name_or_path stabilityai/stable-diffusion-xl-base-1.0 \
+   --controlnet_model_name_or_path lllyasviel/sd-controlnet-canny \
+   --validation_prompt "Girl with Pearl Earring, highly detailed, sharp focus, ultra sharpness, high contrast" \
+   --seed 1 \
+   --config ./configs/sdxl_2048x2048.yaml \
+   --logging_dir ${your-logging-dir}
+```
 
 Please see the instructions above to use your customized text prompt.
 
